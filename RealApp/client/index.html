@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inbox Chat Message</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="inbox-container">
+        <div class="chat-list">
+            </div>
+        <div class="chat-window">
+            <div class="chat-header">
+                <div class="chat-title">Select a chat</div>
+                <div class="chat-status">Offline</div>
+            </div>
+            <div class="chat-messages">
+                </div>
+            <div class="chat-input">
+                <input type="text" placeholder="Type a message...">
+                <button>Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
